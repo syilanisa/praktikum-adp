@@ -1,0 +1,33 @@
+uses crt;
+
+var
+        kalkulus,andat,pengmat,fisdas,kimdas,bing,bindo,agama,sks,ip:real;
+begin
+clrscr;
+        writeln('Tugas Modul 1 Shift 2 No. 1');
+        writeln('Nama  : Arsyila Khairunisa Marta');
+        writeln('NIM   : 2310433004');
+        writeln(' ');
+        write('Kalkulus = ');
+        readln(kalkulus);
+        write('Analisis Data = ');
+        readln(andat);
+        write('Pengantar Matematika = ');
+        readln(pengmat);
+        write('Fisika Dasar = ');
+        readln(fisdas);
+        write('Kimia Dasar = ');
+        readln(kimdas);
+        write('Bahasa Inggris = ');
+        readln(bing);
+        write('Bahasa Indonesia = ');
+        readln(bindo);
+        write('Agama = ');
+        readln(agama);
+        write('Banyak SKS = ');
+        readln(sks);
+        writeln(' ');
+        ip:=((3*kalkulus)+(3*andat)+(3*pengmat)+(2*fisdas)+(2*kimdas)+(2*bing)+(2*bindo)+(2*agama))/sks;
+        writeln('IP Semester 1 = ' ,ip);
+        readln;
+end.
