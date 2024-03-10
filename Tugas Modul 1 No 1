@@ -1,11 +1,12 @@
 uses crt;
 
 var
-    kalkulus,andat,pengmat,fisdas,kimdas,bing,bindo,agama,sks,ip:real;
+        kalkulus,andat,pengmat,fisdas,kimdas,bing,bindo,agama,sks,ip:real;
 begin
 clrscr;
         writeln('Tugas Modul 1 Shift 2 No. 1');
-        writeln('Nama  : Arsyila Khairunisa Marta');
+        writeln('Nama    : Arsyila Khairunisa Marta');
+        writeln('NIM     : 2310433004');
         writeln(' ');
         write('Kalkulus  = ');
         readln(kalkulus);
