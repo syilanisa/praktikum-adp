@@ -1,0 +1,34 @@
+uses crt;
+var
+          aceh,medan,padang,pekanbaru,jambi,palembang,ekonomi,bisnis,first:real;
+          tujuan,kelas,jumlah,diskon,total,totalakhir,harga,biaya:real;
+begin
+clrscr;
+          writeln('Tugas Modul 2 Shift 2');
+          writeln('Nama    : Arsyila Khairunisa Marta');
+          writeln('NIM     : 2310433004');
+          writeln(' ');
+
+          aceh:=300000;
+          medan:=270000;
+          padang:=250000;
+          pekanbaru:=240000;
+          jambi:=210000;
+          palembang:=180000;
+
+          ekonomi:=10000;
+          bisnis:=20000;
+          first:=30000;
+
+          writeln('Bus PT. ANS Lintas Sumatera');
+          writeln('Tujuan :');
+          writeln('1. Banda Aceh    : Rp.',aceh);
+          writeln('2. Medan         : Rp.',medan);
+          writeln('3. Padang        : Rp.',padang);
+          writeln('4. Pekanbaru     : Rp.',pekanbaru);
+          writeln('5. Jambi         : Rp.',jambi);
+          writeln('6. Palembang     : Rp.',palembang);
+
+          write('Tujuan yang di pilih : ');
+          readln(tujuan);
+          writeln(' ');
