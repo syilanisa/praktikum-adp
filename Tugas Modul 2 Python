@@ -65,18 +65,22 @@ jumlah=int (input("Jumlah : "))
 
 total = jumlah * (harga + biaya)
 
-if jumlah == 3 :
-    diskon = 0.05*total
-if jumlah > 3 :
-    diskon = 0.05*total
-if jumlah < 5 :
-    diskon = 0.05*total
-if jumlah == 5 :
-    diskon = 0.05*total
+if jumlah < 3 :
+    diskon = 0
 
 else :
-    if jumlah > 5 :
-        diskon = 0.1*total
+    if jumlah == 3 :
+        diskon = 0.05*total
+    if jumlah > 3 :
+        diskon = 0.05*total
+    if jumlah < 5 :
+        diskon = 0.05*total
+    if jumlah == 5 :
+        diskon = 0.05*total
+
+    else :
+        if jumlah > 5 :
+            diskon = 0.1*total
 
 totalakhir = total-diskon
 
