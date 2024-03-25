@@ -1,0 +1,25 @@
+print ("Tugas Modul 3 Shift 2")
+print ("Nama    : Arsyila Khairunisa Marta")
+print ("NIM     : 2310433004")
+print (" ")
+
+f1 = 1
+f2 = 1
+
+while (True):
+
+    n = int (input("Masukkan nilai n : "))
+    
+    if 3 <= n <= 199 and not (100 <= n <= 109):
+        for i in range(1, n+1) :
+            print(f1)
+            fn = f1 + f2
+            f1 = f2
+            f2 = fn
+        
+            count = 1
+            count += fn
+
+    print ("Jumlah bilangan fibonacci ke " ,n, "adalah = " ,count)
+
+else : input ("Masukkan nilai n lain : ")
